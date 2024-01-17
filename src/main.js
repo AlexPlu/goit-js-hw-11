@@ -59,10 +59,22 @@ function displayImages(images) {
           <img src="${image.webformatURL}" alt="${image.tags}">
         </a>
         <div class="image-panel">
-          <p>Likes ${image.likes}</p>
-          <p>Views ${image.views}</p>
-          <p>Comments ${image.comments}</p>
-          <p>Downloads ${image.downloads}</p>
+          <div class="statistic">
+            <p>Likes</p>
+            <p>${image.likes}</p>
+          </div>
+          <div class="statistic">
+            <p>Views</p>
+            <p>${image.views}</p>
+          </div>
+          <div class="statistic">
+            <p>Comments</p>
+            <p>${image.comments}</p>
+          </div>
+          <div class="statistic">
+            <p>Downloads</p>
+            <p>${image.downloads}</p>
+          </div>
         </div>
       </div>
       `

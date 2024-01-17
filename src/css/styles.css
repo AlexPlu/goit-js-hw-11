@@ -133,12 +133,22 @@
 
 .image-container:hover .image-panel {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.statistic {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .image-panel p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
+}
+
+p:first-child {
+  font-weight: bolder;
 }
